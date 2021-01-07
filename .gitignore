@@ -1,2 +1,8 @@
 TENSORFLOW/DeepLearning/
 TENSORFLOW/DeepLearning/*
+R/GPU/
+R/GPU/*
+R/snow/
+R/snow/*
+R/SWC_scripts/
+R/SWC_scripts/*
