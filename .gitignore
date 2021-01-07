@@ -6,3 +6,9 @@ R/snow/
 R/snow/*
 R/SWC_scripts/
 R/SWC_scripts/*
+MATLAB/DCS+GPU/
+MATLAB/Structures/
+MATLAB/Debugging/
+MATLAB/van-der-pol-sweep-ui-master/
+MATLAB/VanderPolsweep/
+MATLAB/PARFOR_OLD/
