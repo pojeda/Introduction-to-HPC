@@ -1,3 +1,0 @@
-LAMMPS (3 Mar 2020)
-KOKKOS mode is enabled (src/KOKKOS/kokkos.cpp:85)
-  will use up to 1 GPU(s) per node
