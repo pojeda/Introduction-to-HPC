@@ -13,3 +13,7 @@ MATLAB/van-der-pol-sweep-ui-master/
 MATLAB/VanderPolsweep/
 MATLAB/PARFOR_OLD/
 TENSORFLOW/DeepLearning/
+LAMMPS/Test
+LAMMPS/log.lammps
+LAMMPS/step4.1_equilibration.data
+LAMMPS/step4.1_equilibration.dump
