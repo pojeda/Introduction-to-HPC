@@ -4,10 +4,10 @@ The examples provided in this folder are:
    At the end of the script you can find three ways to run GROMACS :
 
      mpirun -np $SLURM_NTASKS gmx_mpi mdrun $mdargs -dlb yes  -v -deffnm step4.1_equilibration
-     mpirun -np $SLURM_NTASKS gmx_mpi mdrun -gputasks 0123 -nb gpu -pme gpu -npme 1 $mdargs -dlb yes  -v -deffnm step4.1_equilibration
-     gmx mdrun -ntmpi $SLURM_NTASKS -gputasks 0123 -nb gpu -pme gpu -npme 1 $mdargs -dlb yes  -v -deffnm step4.1_equilibration
+     mpirun -np $SLURM_NTASKS gmx_mpi mdrun -nb gpu -pme gpu -npme 1 $mdargs -dlb yes  -v -deffnm step4.1_equilibration
+     gmx mdrun -ntmpi $SLURM_NTASKS -nb gpu -pme gpu -npme 1 $mdargs -dlb yes  -v -deffnm step4.1_equilibration
 
-   which one is performs better?
+   in general, the last two perform better than the default option
 
    * "MPI" folder, there is a script to run GROMACS using MPI "sbatch job-mpi-gromacs.sh"
 
