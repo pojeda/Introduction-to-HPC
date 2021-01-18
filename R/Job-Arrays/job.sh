@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -A hpc2n2021-001
+#SBATCH -A Project_ID
 #Asking for 10 min.
 #SBATCH -t 00:12:00
 #SBATCH --array=1-28
